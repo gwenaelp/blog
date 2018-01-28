@@ -133,7 +133,7 @@ export default {
 
 #### Creating the editor component
 
-This editors tries to load the readme of the project at its initialization, and then store the content in the ```readme``` property.
+This editor tries to load the readme of the project at its initialization, and then store the content in the ```readme``` property.
 
 We use the ```repository``` object defined previously by the login form.
 If this object does not exists, we redirect to the login page.
@@ -197,3 +197,7 @@ export default {
 };
 </script>
 ```
+
+You now have a frontend served statically that allows you to edit one file on github. This walkthrough ends here. It's the first step to build more complex web applications. You can think about developping a wiki system, a contact editor... Everything is possible, you just need to continue this example !
+
+You can find the full project [here](https://github.com/gwenaelp/blog-example-github-editor) and a demo served on github pages [here](https://gwenaelp.github.io/blog-example-github-editor/dist/).
