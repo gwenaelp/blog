@@ -35,7 +35,7 @@ The principle is simple. I would like to have one or several templates for the w
 
 ###### Content (fragments/index.html)
 
-```
+```html
 Welcome to the index page!
 ```
 
@@ -43,7 +43,7 @@ Now take a look at the folder architecture of the github repository
 
 ###### Repository folder architecture
 
-```
+```sh
 ├── templates
 │   └── main.html     (Main template)
 ├── fragments
@@ -56,7 +56,7 @@ Now take a look at the folder architecture of the github repository
 
 The config file is here to describe which page has to be generated with which template and which fragment.
 
-```
+```javascript
 {
   "pages": [{
     "template": "templates/main.html",
@@ -77,6 +77,8 @@ We can actually use the github API directly through cross domain ajax requests, 
 
 What I did is a web app that asks your github credentials, and the repo to edit. It then opens the config file, build a menu with the list of fragments that can be edited by the administrator. Then, when the admin clicks on a fragment, it opens a wysiwyg editor.
 Once the admin has made the changes he want and clicked the "publish" button, the web app retreives the template used for that page, generate the complete compiled page, push the changes (fragment and compiled page) into the repo.
+
+![Draft of the admin webpage](https://image.ibb.co/e6Rotb/git_cms_admin.png "Draft of the admin webpage")
 
 #### Conclusion notes
 
