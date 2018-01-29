@@ -43,7 +43,7 @@ Now take a look at the folder architecture of the github repository
 
 ###### Repository folder architecture
 
-```sh
+```bash
 ├── templates
 │   └── main.html     (Main template)
 ├── fragments

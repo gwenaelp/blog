@@ -16,7 +16,7 @@ The webapp will be made with Vue.js (sorry guys, i love so much this framework..
 
 Follow the following commands in a terminal
 
-```sh
+```bash
 # Follow the install wizard and configure the project how you like it.
 # Please install the router if you want to follow the next steps)
 $ vue init webpack github-admin
@@ -44,7 +44,7 @@ Here is the configuration of the router
 
 ##### src/router/index.js
 
-```javacript
+```javascript
 import Vue from 'vue';
 import Router from 'vue-router';
 import Login from '@/components/Login';
@@ -141,7 +141,7 @@ If this object does not exists, we redirect to the login page.
 
 The save method creates a commit with the modified file.
 
-```javascript
+```html
 <template>
   <div>
     <h1>Edit Readme</h1>
